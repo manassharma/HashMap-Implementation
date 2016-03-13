@@ -33,7 +33,7 @@ public class Map {
 		return "No such key found!";
 	}
 
-	public int hashGen(int num) {
+	private int hashGen(int num) {
 		return num % 100000;
 	}
 
